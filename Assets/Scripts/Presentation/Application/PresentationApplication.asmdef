@@ -1,0 +1,27 @@
+{
+    "name": "Presentation.Application",
+    "rootNamespace": "",
+    "references": [
+        "Domain",
+        "UseCases.Application",
+        "VContainer",
+        "UniTask",
+        "ContractsInterfaces",
+        "UnityEngine.TestRunner",
+        "MessagePipe",
+        "UnityEditor.TestRunner"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [
+        "nunit.framework.dll"
+    ],
+    "autoReferenced": true,
+    "defineConstraints": [
+        "UNITY_INCLUDE_TESTS"
+    ],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

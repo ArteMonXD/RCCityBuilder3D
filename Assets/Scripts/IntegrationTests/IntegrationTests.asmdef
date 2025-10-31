@@ -1,0 +1,29 @@
+{
+	"name": "Integration.Tests",
+    "references": [
+        "Domain",
+        "UseCases.Application",
+        "UseCases.Gameplay", 
+        "Presentation.Application",
+        "Presentation.Gameplay",  
+        "Infrastructure",
+        "Repositories.Application", 
+        "Repositories.Gameplay",
+        "ContractsInterfaces",
+        "UtilitiesTests"
+    ],
+    "optionalUnityReferences": [
+        "TestAssemblies"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

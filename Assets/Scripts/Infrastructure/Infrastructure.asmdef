@@ -1,0 +1,19 @@
+{
+	"name": "Infrastructure",
+    "references": [
+        "Domain",
+        "ContractsInterfaces"
+    ],
+    "optionalUnityReferences": [
+        "Unity.InputSystem"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

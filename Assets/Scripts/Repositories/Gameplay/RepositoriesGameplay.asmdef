@@ -1,0 +1,16 @@
+{
+	"name": "Repositories.Gameplay",
+    "references": [
+        "Domain", 
+        "ContractsInterfaces"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

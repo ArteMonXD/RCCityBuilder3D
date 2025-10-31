@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements">
+    <ui:VisualElement class="hud-container">
+        <!-- Панель ресурсов -->
+        <ui:VisualElement class="resources-panel">
+            <ui:Label class="resource-label" text="Gold: " />
+            <ui:Label class="resource-value" name="gold-text" text="1000" />
+        </ui:VisualElement>
+        
+        <!-- Панель строительства -->
+        <ui:VisualElement class="building-panel">
+            <ui:Button class="building-button" name="house-button" text="House (100)" />
+            <ui:Button class="building-button" name="farm-button" text="Farm (150)" />
+            <ui:Button class="building-button" name="mine-button" text="Mine (200)" />
+        </ui:VisualElement>
+        
+        <!-- Панель информации о здании -->
+        <ui:VisualElement class="building-info-panel" name="building-info" style="display: none;">
+            <ui:Label class="building-name" name="building-name" text="Selected Building" />
+            <ui:Label class="building-level" name="building-level" text="Level: 1" />
+            <ui:Button class="action-button" name="upgrade-button" text="Upgrade" />
+            <ui:Button class="action-button" name="move-button" text="Move" />
+            <ui:Button class="action-button" name="remove-button" text="Remove" />
+        </ui:VisualElement>
+        
+        <!-- Панель управления -->
+        <ui:VisualElement class="control-panel">
+            <ui:Button class="control-button" name="save-button" text="Save" />
+            <ui:Button class="control-button" name="load-button" text="Load" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

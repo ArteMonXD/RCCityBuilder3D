@@ -1,0 +1,20 @@
+{
+	"name": "UseCases.Application",
+    "references": [
+        "Domain",
+        "ContractsInterfaces",
+        "VContainer",
+        "MessagePipe",
+        "UniTask",
+        "Infrastructure"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

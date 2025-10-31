@@ -1,0 +1,29 @@
+{
+    "name": "Presentation.Gameplay",
+    "rootNamespace": "",
+    "references": [
+        "Domain",
+        "UseCases.Gameplay",
+        "ContractsInterfaces",
+        "VContainer",
+        "MessagePipe",
+        "UniTask",
+        "UnityEngine.TestRunner",
+        "UnityEditor.TestRunner",
+        "UseCases.Application",
+        "Infrastructure"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [
+        "nunit.framework.dll"
+    ],
+    "autoReferenced": true,
+    "defineConstraints": [
+        "UNITY_INCLUDE_TESTS"
+    ],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
